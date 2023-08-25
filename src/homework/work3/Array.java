@@ -1,4 +1,4 @@
-package classwork.chapter4;
+package homework.work3;
 
 public class Array {
     public static void main(String[] args) {
