@@ -1,4 +1,4 @@
-package homework.workone;
+package homework.work1;
 
 public class Day {
     public static void main(String[] args) {

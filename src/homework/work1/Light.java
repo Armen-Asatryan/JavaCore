@@ -1,4 +1,4 @@
-package homework.workone;
+package homework.work1;
 
 public class Light {
     public static void main(String[] args) {
