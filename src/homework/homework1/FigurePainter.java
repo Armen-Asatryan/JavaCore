@@ -55,7 +55,7 @@ public class FigurePainter {
 
 
         int c = 5;
-        for (int i = 1; i <= c; i++) {
+        for (int i = 2; i <= c; i++) {
 
             for (int j = 1; j < i; j++) {
                 System.out.print(" ");
