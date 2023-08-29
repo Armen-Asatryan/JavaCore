@@ -52,7 +52,7 @@ public class FigurePainter {
             }
             System.out.println();
         }
-        System.out.println();
+
 
         int c = 5;
         for (int i = 1; i <= c; i++) {
