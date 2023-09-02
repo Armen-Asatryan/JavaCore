@@ -30,11 +30,7 @@ public class ForExample {
 
         System.out.println(max);
 
-//        int a = 0;
-//        for (int i = 0; i <= lastindex; i++) {
-//            a = a + array[i];
-//        }
-//        System.out.print(a);
+
     }
 }
 
