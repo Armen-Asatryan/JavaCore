@@ -30,23 +30,55 @@ public class ArrayUtil {
             }
         }
         System.out.println(min);
-        System.out.println("Work 7");
-        int a = 0;
+        System.out.println("Work 6");
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] % 2 == 0) {
-                System.out.println(i);
-                a = a + i;
+            if (numbers.length>2){
+                System.out.println();
+            }
+            if (numbers.length<=2){
+                System.out.println("cant print middle values");
+            }
+            if (numbers[i]%2==0){
+                System.out.println();
+            }
+            if (numbers[i]%2==1){
+
             }
         }
-        System.out.println(a);
+        System.out.println("Work 7");
+        int sum = 0;
+        int count = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            int value = numbers[i];
+            if (value % 2==0) {
+                sum = sum + value;
+                count += 1;
+            }
+        }
+        System.out.println(count);
+        System.out.println(sum);
+
+        System.out.println("Work 8");
+
+        int resault = 0;
+        int coun = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            int value = numbers[i];
+            if (value % 2!=0) {
+                resault  = resault  + value;
+                coun += 1;
+            }
+        }
+        System.out.println(count);
+        System.out.println(sum);
+
         System.out.println("Work 9");
         int b = 0;
         for (int i = 0; i < numbers.length; i++) {
             b = b + numbers[i];
-
-
         }
         System.out.println(b);
+
         System.out.println("Work 10");
         int d = 0;
         for (int i = 0; i < numbers.length; i++) {
