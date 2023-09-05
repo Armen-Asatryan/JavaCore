@@ -29,7 +29,9 @@ public class ArrayUtil {
                 min = numbers[i];
             }
         }
+
         System.out.println(min);
+        //Չի ստացվել:)
         System.out.println("Work 6");
         for (int i = 0; i < numbers.length; i++) {
             if (numbers.length>2){
