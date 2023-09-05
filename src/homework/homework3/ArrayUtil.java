@@ -33,17 +33,19 @@ public class ArrayUtil {
         System.out.println(min);
         //Չի ստացվել:)
         System.out.println("Work 6");
-        for (int i = 0; i < numbers.length; i++) {
-            if (numbers.length>2){
+       int num = numbers.length;
+        for (int i = 0; i < num%2; i++) {
+            int value = numbers[i];
+            if (num>2){
                 System.out.println();
             }
-            if (numbers.length<=2){
+            if (num<=2){
                 System.out.println("cant print middle values");
             }
-            if (numbers[i]%2==0){
+            if (value%2==0){
                 System.out.println();
             }
-            if (numbers[i]%2==1){
+            if (value%2==1){
 
             }
         }
