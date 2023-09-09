@@ -31,30 +31,23 @@ public class ArrayUtil {
         }
 
         System.out.println(min);
-        //Չի ստացվել:)
+        //int[] numbers = {1, 6, 3, 9, 15, 52, -3, 5, 8,};
         System.out.println("Work 6");
-       int num = numbers.length;
-        for (int i = 0; i < num%2; i++) {
-            int value = numbers[i];
-            if (num>2){
-                System.out.println();
-            }
-            if (num<=2){
-                System.out.println("cant print middle values");
-            }
-            if (value%2==0){
-                System.out.println();
-            }
-            if (value%2==1){
+        if (numbers.length % 2 ==0) {
+            System.out.println(numbers[numbers.length / 2] + " " + numbers[numbers.length / 2 -1]);
 
-            }
+
+        }else {
+            System.out.println(numbers[numbers.length / 2]);
         }
+
+
         System.out.println("Work 7");
         int sum = 0;
         int count = 0;
         for (int i = 0; i < numbers.length; i++) {
             int value = numbers[i];
-            if (value % 2==0) {
+            if (value % 2 == 0) {
                 sum = sum + value;
                 count += 1;
             }
@@ -68,8 +61,8 @@ public class ArrayUtil {
         int coun = 0;
         for (int i = 0; i < numbers.length; i++) {
             int value = numbers[i];
-            if (value % 2!=0) {
-                resault  = resault  + value;
+            if (value % 2 != 0) {
+                resault = resault + value;
                 coun += 1;
             }
         }
