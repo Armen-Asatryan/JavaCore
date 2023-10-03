@@ -35,7 +35,7 @@ public class EmployeeStorage {
     public void searchCompanyname(String Cn ) {
 
         for (int i = 0; i < size; i++) {
-            if (Employees[i].getName().contains(Cn)) {
+            if (Employees[i].getCompany().contains(Cn)) {
                 System.out.println(Employees[i].getName() + " " + Employees[i].getSurname() + " "  + Employees[i].getCompany());
             }
         }
