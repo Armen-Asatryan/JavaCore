@@ -1,5 +1,7 @@
 package classwork.chapter9.stack;
 
+import homework.homework5.Stack;
+
 public class StackTest {
     public static void main(String[] args) {
         Stack myStack = new Stack();
