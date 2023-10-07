@@ -14,7 +14,7 @@ public class BookStorage {
 
     public void print() {
         for (int i = 0; i < size; i++) {
-            System.out.println(books[i].getTitle() + " " + books[i].getAuthorname() + " " + books[i].getPrice() + " " + books[i].getCount());
+            System.out.println(books[i]);
 
         }
 
