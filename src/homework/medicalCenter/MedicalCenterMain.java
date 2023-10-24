@@ -141,7 +141,7 @@ public class MedicalCenterMain {
         }
 
         private static void addDoctor() {
-            System.out.println("Please input DOCTOR ID");
+            System.out.println("Please input DOCTOR ID,Name,surName,PhoneNumber,email,profession");
             String doctorDateStr = scanner.nextLine();
             String[] doctorDate = doctorDateStr.split(",");
             String doctorId = doctorDate[0];
