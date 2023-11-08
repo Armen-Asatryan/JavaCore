@@ -1,6 +1,6 @@
 package homework.medicalCenter.storage;
 
-import classwork.employeemanagement.modell.Employee;
+
 import homework.medicalCenter.model.Doctor;
 import homework.medicalCenter.model.Patient;
 import homework.medicalCenter.model.Person;
