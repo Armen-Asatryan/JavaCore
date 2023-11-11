@@ -1,25 +1,23 @@
-package homework.onlineshop.model;
+package homework.onlineStore.model;
 
-import homework.onlineshop.model.enums.Type1;
+import homework.onlineStore.model.enums.UserType;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class User {
+public class User implements Serializable {
     private String id;
     private String name;
     private String email;
     private String password;
-    private Type1 type;
+    private UserType userType;
 
-    public User(String id, String name, String email, String password, Type1 type) {
+    public User(String id, String name, String email, String password, UserType type) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.password = password;
-        this.type = type;
-    }
-
-    public User() {
+        this.userType = type;
     }
 
     public String getId() {
@@ -54,25 +52,12 @@ public class User {
         this.password = password;
     }
 
-    public Type1 getType() {
-        return type;
+    public UserType getUserType() {
+        return userType;
     }
 
-    public void setType(Type1 type) {
-        this.type = type;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return Objects.equals(id, user.id) && Objects.equals(name, user.name) && Objects.equals(email, user.email) && Objects.equals(password, user.password) && type == user.type;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, name, email, password, type);
+    public void setUserType(UserType userType) {
+        this.userType = userType;
     }
 
     @Override
@@ -81,8 +66,8 @@ public class User {
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", type=" + type +
+                ", password='*****'" +
+                ", type=" + userType +
                 '}';
     }
 }

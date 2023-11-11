@@ -1,4 +1,4 @@
-package homework.onlineshop.model.enums;
+package homework.onlineStore.model.enums;
 
 public enum PaymentMethod {
     CARD,CASH,PAYPAL
